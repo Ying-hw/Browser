@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Browser", "Browser\Browser.vcxproj", "{9BD70DF1-0D49-4F6F-8C6F-2D5ABA2418FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{414BBDDF-2DDC-4BF6-A805-6095B3D85123}"
+	ProjectSection(SolutionItems) = preProject
+		x64\Data\plugin.xml = x64\Data\plugin.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BD70DF1-0D49-4F6F-8C6F-2D5ABA2418FB}.Debug|x64.ActiveCfg = Debug|x64
+		{9BD70DF1-0D49-4F6F-8C6F-2D5ABA2418FB}.Debug|x64.Build.0 = Debug|x64
+		{9BD70DF1-0D49-4F6F-8C6F-2D5ABA2418FB}.Release|x64.ActiveCfg = Release|x64
+		{9BD70DF1-0D49-4F6F-8C6F-2D5ABA2418FB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {071CC6A0-5CBB-4CD4-B3B9-46495288298B}
+	EndGlobalSection
+EndGlobal

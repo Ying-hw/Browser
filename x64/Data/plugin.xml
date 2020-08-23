@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<test>
+  <pluginconfig>
+	<plugin>
+		<name>Browser</name>
+		<path>.</path>
+		<start>1</start>
+	</plugin>
+</pluginconfig>
+</test>
