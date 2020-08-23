@@ -37,11 +37,11 @@
     <ClCompile Include="Browser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClInclude Include="Browser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="x64\Debug\uic\ui_Browser.h">
       <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="x64\Release\uic\ui_Browser.h">
+      <Filter>Release</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -53,5 +53,10 @@
     <ClCompile Include="DllMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Browser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

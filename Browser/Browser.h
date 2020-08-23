@@ -9,8 +9,18 @@
 
 class BROWSER_EXPORT Browser : public AbstractWidget
 {
+	Q_OBJECT
 public:
     Browser();
+
+private slots:
+	void SlotBtnRetreat();
+	void SlotBtnaAdvance();
+	void SlotBtnHome();
+	void SlotBtnCollect();
+	void SlotBtnSet();
+private:
+	Ui::Form ui;
 };
 
 #endif
